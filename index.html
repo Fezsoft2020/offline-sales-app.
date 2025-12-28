@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shipment Tracker PWA</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="manifest.json">
+<script defer src="app.js"></script>
+</head>
+<body>
+<h1>Shipment Tracker</h1>
+<section>
+  <h2>Add Shipment</h2>
+  <input id="shipmentType" placeholder="Type (hats/jeans)">
+  <input id="shipmentPieces" type="number" placeholder="Pieces">
+  <button onclick="addShipment()">Add Shipment</button>
+</section>
+<section>
+  <h2>Add Sales Report</h2>
+  <input id="salesStaff" placeholder="Staff Name">
+  <input id="salesShipmentId" placeholder="Shipment ID">
+  <input id="salesQty" type="number" placeholder="Quantity Sold">
+  <button onclick="addSales()">Add Sales</button>
+</section>
+<section>
+  <h2>Shipments</h2>
+  <pre id="shipmentsList"></pre>
+</section>
+<section>
+  <h2>Sales Reports</h2>
+  <pre id="salesList"></pre>
+</section>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Shipment Tracker",
+  "short_name": "ShipTrack",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Offline shipment and sales tracker",
+  "icons": []
+}
